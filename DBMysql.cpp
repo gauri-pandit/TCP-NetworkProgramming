@@ -29,7 +29,7 @@ int main(void)
 
 		/* Create a connection */
 		driver = get_driver_instance();
-		con = driver->connect("tcp://127.0.0.1:3306", "root", "Gaur!@!985");
+		con = driver->connect("tcp://127.0.0.1:3306", "root", "password");
 
 	}
 	catch (sql::SQLException e)
